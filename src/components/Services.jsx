@@ -5,7 +5,7 @@ import { IoShieldOutline } from "react-icons/io5";
 
 const Services = () => {
   return (
-    <section className="w-full py-16 bg-white">
+    <section data-aos="zoom-in-up" className="w-full py-16 bg-gradient-to-br from-[#9DFF9933]/20 via-white to-[#9DFF9933]/20">
       <div className="w-11/12 mx-auto px-4 md:px-6 text-center">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           
@@ -24,7 +24,7 @@ const Services = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="flex flex-col items-start text-left space-y-3 border-l border-[#F4F6F8] pl-6 pt-4 hover:-translate-y-2 hover:shadow-lg hover:border-green-200 cursor-pointer">
+          <div className="flex flex-col items-start text-left space-y-3 pl-6 pt-4 border-l border-[#F4F6F8]  hover:-translate-y-2 hover:shadow-lg hover:border-green-200 cursor-pointer">
             <div className="p-3 bg-[#ECFCEB] rounded-xl">
               <PiCrosshairFill  className="text-[#3BA334] w-7 h-6" />
             </div>

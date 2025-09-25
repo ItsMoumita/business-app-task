@@ -10,7 +10,7 @@ const Services = () => {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           
           {/* Card 1 */}
-          <div className="flex flex-col items-start text-left space-y-3">
+          <div className="flex flex-col items-start text-left space-y-3 pl-6 pt-4 border-l border-white hover:-translate-y-2 hover:shadow-lg hover:border-green-200 cursor-pointer">
             <div className="p-3 bg-[#ECFCEB] rounded-xl">
               <LuCalendarCheck className="text-[#3BA334] w-7 h-6" />
             </div>
@@ -24,7 +24,7 @@ const Services = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="flex flex-col items-start text-left space-y-3 border-l border-[#F4F6F8] pl-6">
+          <div className="flex flex-col items-start text-left space-y-3 border-l border-[#F4F6F8] pl-6 pt-4 hover:-translate-y-2 hover:shadow-lg hover:border-green-200 cursor-pointer">
             <div className="p-3 bg-[#ECFCEB] rounded-xl">
               <PiCrosshairFill  className="text-[#3BA334] w-7 h-6" />
             </div>
@@ -38,7 +38,7 @@ const Services = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="flex flex-col items-start text-left space-y-3 lg:border-l border-[#F4F6F8] lg:pl-6">
+          <div className="flex flex-col items-start text-left space-y-3 lg:border-l border-[#F4F6F8] pl-6  pt-4 hover:-translate-y-2 hover:shadow-lg hover:border-green-200 cursor-pointer">
             <div className="p-3 bg-[#ECFCEB] rounded-xl">
               <LuChartSpline className="text-[#3BA334] w-7 h-6" />
             </div>
@@ -52,7 +52,7 @@ const Services = () => {
           </div>
 
           {/* Card 4 */}
-          <div className="flex flex-col items-start text-left space-y-3 border-l border-[#F4F6F8] pl-6">
+          <div className="flex flex-col items-start text-left space-y-3 border-l border-[#F4F6F8] pl-6 pt-4 hover:-translate-y-2 hover:shadow-lg hover:border-green-200 cursor-pointer">
             <div className="p-3 bg-[#ECFCEB] rounded-xl">
               <IoShieldOutline className="text-[#3BA334] w-7 h-6" />
             </div>

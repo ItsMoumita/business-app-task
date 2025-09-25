@@ -1,4 +1,4 @@
-"use client";
+
 import React, { useEffect } from "react";
 import appleStore from "../assets/apple.png";
 import playStore from "../assets/Playstore.png";

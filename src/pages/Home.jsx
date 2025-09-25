@@ -5,6 +5,7 @@ import Services from '../components/Services';
 import Footer from '../components/Footer';
 import Detail from '../components/Detail';
 import Testimonials from '../components/Testimonials';
+import Accordion from '../components/Accordion';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Services></Services>
             <Detail></Detail>
             <Testimonials></Testimonials>
+            <Accordion></Accordion>
             <Footer></Footer>
         </div>
     );

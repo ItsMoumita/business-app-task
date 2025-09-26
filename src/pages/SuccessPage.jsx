@@ -9,7 +9,9 @@ const SuccessPage = () => {
  
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-white">
-      <img src={logo} alt="logo" className="h-10 mb-6" />
+        <div className="absolute top-6 left-6">
+              <img src={logo} alt="ScapeSync Logo" className="h-10" />
+            </div>
       <div className="text-center">
         <img src={firework}
           alt="fireworks" className="w-35 h-40 mx-40 mb-6" />

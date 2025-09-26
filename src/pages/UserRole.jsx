@@ -28,13 +28,16 @@ const UserRole = () => {
   return (
     <div data-aos="flip-up" className="min-h-screen flex flex-col items-center justify-center bg-white px-4">
       {/* Logo */}
-      <img src={logo} alt="logo" className="h-12 mb-6" />
+      <img src={logo} alt="logo" className="h-16 mb-6" />
 
-      {/* Heading */}
+
+     {/* Heading */}
+      <div className="flex flex-col items-center justify-center gap-6">
       <h2 className="text-2xl font-bold text-gray-900 text-center">Who Are You?</h2>
       <p className="text-gray-500 text-center mb-12">
         Choose the option that best describes you so we can tailor your experience.
       </p>
+      </div>
 
       {/* Options */}
       <div className="flex gap-8">

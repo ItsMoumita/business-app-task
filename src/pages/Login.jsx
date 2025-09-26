@@ -57,7 +57,9 @@ const Login = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 px-4">
       {/* Logo */}
-      <img src={logo} alt="logo" className="h-10 mb-6" />
+        <div className="absolute top-6 left-6">
+              <img src={logo} alt="ScapeSync Logo" className="h-10" />
+            </div>
 
       <div className="w-full max-w-md bg-white rounded-lg shadow p-8">
         <h2 className="text-2xl font-bold text-center text-gray-900">

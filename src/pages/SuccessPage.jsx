@@ -2,6 +2,7 @@
 
 import firework from "../assets/firework.jpg";
 import logo from "../assets/business-logo.png";
+import { Link } from "react-router";
 
 
 const SuccessPage = () => {

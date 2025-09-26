@@ -60,7 +60,7 @@ const Footer = () => {
         {/* Left Side */}
         <div className="flex flex-col gap-4 max-w-md">
           <div className="flex items-center gap-2">
-            <img src="/public/footer-logo.png" alt="Logo" className="h-20" />
+            <img src="./public/footer-logo.png" alt="Logo" className="h-20" />
           </div>
 
           {/* Social Icons */}

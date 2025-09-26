@@ -10,7 +10,7 @@ const Navbar = () => {
                 {/* Logo */}
 
                 <img
-                    src="/public/business-logo.png"
+                    src="./public/business-logo.png"
                     alt="ScapeSync Logo"
                     className="h-12 w-auto"
                 />

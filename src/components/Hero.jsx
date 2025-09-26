@@ -88,7 +88,7 @@ const Hero = () => {
               to="#"
               className="flex items-center gap-3 border border-green-500 rounded-lg px-4 py-2 hover:bg-gray-50 transition"
             >
-              <img src="/public/apple.png" alt="App Store" className="h-8 w-8" />
+              <img src="./public/apple.png" alt="App Store" className="h-8 w-8" />
               <div className="flex flex-col items-start">
                 <span className="text-xs text-gray-600">Download on the</span>
                 <span className="text-lg font-semibold text-gray-900">App Store</span>

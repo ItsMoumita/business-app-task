@@ -6,7 +6,6 @@ import firework from "../assets/firework.jpg";
 const ResetSuccess = () => {
   const navigate = useNavigate();
 
-  // Auto-redirect after 3 seconds
   useEffect(() => {
     const timer = setTimeout(() => navigate("/login"), 3000);
     return () => clearTimeout(timer);
@@ -16,12 +15,12 @@ const ResetSuccess = () => {
     <div className="min-h-screen flex flex-col items-center justify-center bg-white">
       {/* Logo */}
       <div className="absolute top-6 left-6">
-        <img src="/public/business-logo.png" alt="ScapeSync Logo" className="h-10" />
+        <img src="./public/business-logo.png" alt="ScapeSync Logo" className="h-10" />
       </div>
 
       {/* Center Content */}
       <div className="text-center">
-        {/* Fireworks image (replace with Lottie if you want animation 🎆) */}
+        {/* Fireworks image */}
         <img
           src={firework}
           alt="fireworks"

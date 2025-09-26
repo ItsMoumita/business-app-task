@@ -39,7 +39,7 @@ const VerifyOtp = () => {
 
       if (res.ok) {
         setMessage("✅ Verified!");
-        navigate("/success"); // move to success screen
+        navigate("/success"); 
       } else {
         setMessage("❌ Invalid OTP, try again.");
       }
@@ -55,7 +55,7 @@ const VerifyOtp = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 px-4">
-      <img src="/public/business-logo.png" alt="logo" className="h-10 mb-6" />
+      <img src="./public/business-logo.png" alt="logo" className="h-10 mb-6" />
 
       <div className="w-full max-w-md bg-white rounded-lg shadow p-8 text-center">
         <h2 className="text-2xl font-bold mb-4">Verify OTP</h2>

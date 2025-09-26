@@ -63,7 +63,7 @@ const Register = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 px-4">
       {/* Logo */}
-      <img src="./public/business-logo.png" alt="Logo" className="h-10 mb-6" />
+      <img src="/business-logo.png" alt="Logo" className="h-10 mb-6" />
 
       <div className="w-full max-w-md bg-white rounded-lg shadow p-8">
         <h2 className="text-2xl font-bold text-center text-gray-900">Create your Account</h2>

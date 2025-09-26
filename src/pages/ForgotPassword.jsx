@@ -40,7 +40,7 @@ const ForgotPassword = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50">
-      <img src="./public/business-logo.png" alt="logo" className="h-10 mb-6" />
+      <img src="/business-logo.png" alt="logo" className="h-10 mb-6" />
       <div className="w-full max-w-md bg-white rounded-lg shadow p-8">
         <button onClick={() => navigate(-1)} className="text-green-600 mb-4">← Back</button>
         <h2 className="text-xl font-bold mb-2">Forgot your password?</h2>

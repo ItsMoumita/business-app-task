@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router";
 import firework from "../assets/firework.jpg";
+import logo from "../assets/business-logo.png";
 
 const ResetSuccess = () => {
   const navigate = useNavigate();
@@ -15,7 +16,7 @@ const ResetSuccess = () => {
     <div className="min-h-screen flex flex-col items-center justify-center bg-white">
       {/* Logo */}
       <div className="absolute top-6 left-6">
-        <img src="/business-logo.png" alt="ScapeSync Logo" className="h-10" />
+        <img src={logo} alt="ScapeSync Logo" className="h-10" />
       </div>
 
       {/* Center Content */}

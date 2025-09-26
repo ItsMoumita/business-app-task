@@ -56,7 +56,7 @@ const Testimonials = () => {
       id: 2,
       name: "Ahmed R.",
       role: "Technician",
-      text: "I love how easy it is to see my daily tasks and track my time. It makes my job stress-free.",
+      text: "I love how easy it is to see my daily tasks and track my time. It makes my job stress-free. It's like having a personal assistant in my pocket!",
       image: user2,
     },
     {

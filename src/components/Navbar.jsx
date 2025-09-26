@@ -2,6 +2,7 @@
 import React from "react";
 import UIButton from "./UIButton";
 import { Link } from "react-router";
+import logo from "../assets/business-logo.png";
 
 const Navbar = () => {
     return (
@@ -10,7 +11,7 @@ const Navbar = () => {
                 {/* Logo */}
 
                 <img
-                    src="./public/business-logo.png"
+                    src={logo}
                     alt="ScapeSync Logo"
                     className="h-12 w-auto"
                 />

@@ -3,6 +3,7 @@ import { useLocation, useNavigate } from "react-router";
 import Loader from "../components/Loader";
 import { IoEye} from "react-icons/io5";
 import { IoMdEyeOff } from "react-icons/io";
+import logo from "../assets/business-logo.png";
 
 const ResetPassword = () => {
   const navigate = useNavigate();
@@ -45,7 +46,7 @@ const ResetPassword = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50">
-      <img src="/business-logo.png" alt="logo" className="h-10 mb-6"/>
+      <img src={logo} alt="logo" className="h-10 mb-6"/>
       <div className="w-full max-w-md bg-white rounded-lg shadow p-8">
         <h2 className="font-bold text-xl mb-4">Reset Password</h2>
         <form onSubmit={handleSubmit} className="space-y-4">

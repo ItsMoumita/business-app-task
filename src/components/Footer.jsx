@@ -2,6 +2,7 @@ import React from "react";
 import { FaYoutube, FaFacebook, FaInstagram} from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
 import appleStoreFooter from "../assets/apple-footer.png";
+import footerLogo from "../assets/footer-logo.png";
 import playStore from "../assets/Playstore.png";
 import { Link } from "react-router";
 
@@ -60,7 +61,7 @@ const Footer = () => {
         {/* Left Side */}
         <div className="flex flex-col gap-4 max-w-md">
           <div className="flex items-center gap-2">
-            <img src="/footer-logo.png" alt="Logo" className="h-20" />
+            <img src={footerLogo} alt="Logo" className="h-20" />
           </div>
 
           {/* Social Icons */}

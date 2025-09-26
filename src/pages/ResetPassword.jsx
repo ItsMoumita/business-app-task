@@ -8,7 +8,8 @@ import logo from "../assets/business-logo.png";
 const ResetPassword = () => {
   const navigate = useNavigate();
   const { state } = useLocation();
-  const email = state?.email;
+ 
+ const token = state?.token; 
 
   const [password,setPassword] = useState("");
   const [confirm,setConfirm] = useState("");
@@ -26,11 +27,18 @@ const ResetPassword = () => {
     setLoading(true);
     try{
       const fd = new FormData();
-      fd.append("email", email);
+       fd.append("token", token); 
       fd.append("password", password);
       fd.append("password_confirmation", confirm);
 
       const res = await fetch("https://apitest.softvencefsd.xyz/api/reset-password",{method:"POST",body:fd});
+
+      // console to debug
+      const data = await res.json();
+      console.log("Reset response:", data);
+
+
+
       if(res.ok){
         setMessage("✅ Reset successful");
         setTimeout(()=> navigate("/reset-success"), 1000);

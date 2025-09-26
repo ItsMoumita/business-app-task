@@ -26,7 +26,7 @@ const UserRole = () => {
 
    if (loading) return <Loader />;
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-white px-4">
+    <div data-aos="flip-up" className="min-h-screen flex flex-col items-center justify-center bg-white px-4">
       {/* Logo */}
       <img src={logo} alt="logo" className="h-12 mb-6" />
 
@@ -39,7 +39,7 @@ const UserRole = () => {
       {/* Options */}
       <div className="flex gap-8">
         {/* Client Role */}
-        <div
+        <div 
           onClick={() => handleSelect("client")}
           className={`cursor-pointer w-64 h-48 border rounded-lg flex flex-col items-center justify-center p-6 shadow-sm transition 
             ${selectedRole === "client" ? "bg-green-100 border-green-500" : "bg-white border-gray-200"}`}
@@ -52,7 +52,7 @@ const UserRole = () => {
         </div>
 
         {/* Business Owner Role */}
-        <div
+        <div 
           onClick={() => handleSelect("business_owner")}
           className={`cursor-pointer w-64 h-48 border rounded-lg flex flex-col items-center justify-center p-6 shadow-sm transition 
             ${selectedRole === "business_owner" ? "bg-green-100 border-green-500" : "bg-white border-gray-200"}`}

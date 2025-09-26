@@ -36,9 +36,12 @@ const ForgotVerifyOtp = () => {
         body: formData,
       });
 
+      const data = await res.json();
+    console.log("OTP Verify Response:", data);
+
       if (res.ok) {
         setMessage("✅ Verified!");
-        setTimeout(()=> navigate("/reset-password", { state: { email } }), 1000);
+        setTimeout(()=> navigate("/reset-password", { state: { token: data.data.token } }), 1000);
       } else {
         setMessage("❌ Invalid OTP");
       } 

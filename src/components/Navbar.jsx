@@ -18,7 +18,7 @@ const Navbar = () => {
 
                 {/* Get Started Button */}
 
-                <Link to="/register">
+                <Link to="/role">
                     <UIButton>Get Started</UIButton>
                 </Link>
 

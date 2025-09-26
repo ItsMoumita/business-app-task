@@ -8,6 +8,7 @@ import ForgotVerifyOtp from "../pages/ForgotVerifyOtp";
 import ResetPassword from "../pages/ResetPassword";
 import ResetSuccess from "../pages/ResetSuccess";
 import ForgotPassword from "../pages/ForgotPassword";
+import UserRole from "../pages/UserRole";
 
 
 export const router = createBrowserRouter([
@@ -47,6 +48,10 @@ export const router = createBrowserRouter([
    {
     path: "/reset-success",
     Component: ResetSuccess
+   },
+   {
+    path: "/role",
+    Component: UserRole
    }
 
 ]);

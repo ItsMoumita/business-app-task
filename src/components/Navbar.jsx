@@ -1,6 +1,7 @@
 
 import React from "react";
 import UIButton from "./UIButton";
+import { Link } from "react-router";
 
 const Navbar = () => {
     return (
@@ -16,9 +17,9 @@ const Navbar = () => {
 
                 {/* Get Started Button */}
 
-                <UIButton onClick={() => alert("Clicked!")}>
-                    Get Started
-                </UIButton>
+                <Link to="/register">
+                    <UIButton>Get Started</UIButton>
+                </Link>
 
             </div>
         </nav>
